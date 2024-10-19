@@ -1,0 +1,76 @@
+/* style.css */
+
+/* Basic styling for the entire website */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Container styling to center content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+/* Header styling */
+header {
+    font-size: 24px;
+    color: rgb(10, 20, 30);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.cta .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* Hover effect for navigation links */
+.navbar a:hover {
+    color: #4CAF50;
+}
+
+/* Hover effect for call-to-action button */
+.cta .button:hover {
+    background-color: #45a049;
+}
+/* Main content styling */
+main {
+    padding: 2em 0;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+/* Fun Facts page styling */
+.fun-facts {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.fun-facts img {
+    width: 200px;
+    height: auto;
+}
